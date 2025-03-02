@@ -1,7 +1,7 @@
 # Hopping Too Late: Exploring the Limitations of Large Language Models on Multi-Hop Queries
 
 This repository contains the official code of the paper 
-[Hopping Too Late: Exploring the Limitations of Large Language Models on Multi-Hop Queries](https://arxiv.org/abs/2406.12775).
+[Hopping Too Late: Exploring the Limitations of Large Language Models on Multi-Hop Queries](https://arxiv.org/abs/2406.12775) presented at EMNLP 2024.
 
 ## Setup
 
@@ -33,10 +33,23 @@ Classifying the experiments results can be done using `src/classify_results.py` 
 
 ## Citation
 ```
-@article{biran2024hopping,
-  title={Hopping Too Late: Exploring the Limitations of Large Language Models on Multi-Hop Queries},
-  author={Biran, Eden and Gottesman, Daniela and Yang, Sohee and Geva, Mor and Globerson, Amir},
-  journal={arXiv preprint arXiv:2406.12775},
-  year={2024}
+@inproceedings{biran-etal-2024-hopping,
+    title = "Hopping Too Late: Exploring the Limitations of Large Language Models on Multi-Hop Queries",
+    author = "Biran, Eden  and
+      Gottesman, Daniela  and
+      Yang, Sohee  and
+      Geva, Mor  and
+      Globerson, Amir",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.781/",
+    doi = "10.18653/v1/2024.emnlp-main.781",
+    pages = "14113--14130"
 }
 ```
